@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Switzer, serif;
+}
+
+#app{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: "JetBrains Mono", monospace;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+li input[type="checkbox"] {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
+
+li button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c0392b;
+}
+
+#taskInput {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 60%;
+    max-width: 300px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#taskInput:focus {
+    border-color: #007BFF;
+}
+
+button {
+    padding: 10px 33px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+
+
